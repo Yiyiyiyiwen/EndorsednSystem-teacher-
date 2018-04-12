@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">教师端</string>
+    <string name="bookdetail">《三国演义》是中国古典四大名著之一，是中国第一部长篇章回体历史演义小说，全名为《三国志通俗演义》（又称《三国志演义》），作者是元末明初的著名小说家罗贯中。《三国志通俗演义》成书后有嘉靖壬午本等多个版本传于世，到了明末清初，毛宗岗对《三国演义》整顿回目、修正文辞、改换诗文。《三国演义》描写了从东汉末年到西晋初年之间近百年的历史风云，以描写战争为主，诉说了东汉末年的群雄割据混战和魏、蜀、吴三国之间的政治和军事斗争，最终司马炎一统三国，建立晋朝的故事。反映了三国时代各类社会斗争与矛盾的转化，并概括了这一时代的历史巨变，塑造了一群叱咤风云的三国英雄人物。全书可大致分为黄巾起义、董卓之乱、群雄逐鹿、三国鼎立、三国归晋五大部分。在广阔的历史舞台上，上演了一幕幕气势磅礴的战争场面。作者罗贯中将兵法三十六计融于字里行间，既有情节，也有兵法韬略。</string>
+    <string name="readin">课内阅读</string>
+    <string name="readout">课外阅读</string>
+    <string name="rank">排行榜</string>
+    <string name="primary">小学</string>
+    <string name="middle">初中</string>
+    <string name="high">高中</string>
+    <string name="zhaohuaxishi">《朝花夕拾》</string>
+    <string name="kunchongji">《昆虫记》</string>
+    <string name="xiaowangzi">《小王子》</string>
+    <string name="sherlok">《福尔摩斯探案全集》</string>
+    <string name="sanguoyanyi">《三国演义》</string>
+    <string name="ZHXSintro"><![CDATA[《朝花夕拾》原名《旧事重提》，是现代文学家鲁迅的散文集，收录鲁迅于1926年创作的10篇回忆性散文，[1]  1928年由北京未名社初版，现编入《鲁迅全集》第2卷。]]></string>
+    <string name="KCJintro">《昆虫记》（Souvenirs Entomologiques）又称《昆虫世界》《昆虫物语》《昆虫学札记》或《昆虫的故事》，是法国昆虫学家、文学家让-亨利·卡西米尔·法布尔所著的长篇科普文学作品，共十卷。（法国） 该作品是一部概括昆虫的种类、特征、习性和婚习的昆虫学巨著，同时也是一部富含知识、趣味美感和哲理的文学宝藏。这部著作的法文书名直译为《昆虫学的回忆》，副标题为“对昆虫的本能及其习俗的研究”。它的文字清新、自然有趣，语调轻松幽默诙谐，基于事实的故事情节曲折奇异。作者将昆虫的多彩生活与自己的人生感悟融为一体，用人性去看待昆虫。字里行间都透露出作者对生命的尊敬与热爱。</string>
+    <string name="XWZintro">《小王子》是法国作家安托万·德·圣·埃克苏佩里于1942年写成的著名儿童文学短篇小说。本书的主人公是来自外星球的小王子。书中以一位飞行员作为故事叙述者，讲述了小王子从自己星球出发前往地球的过程中，所经历的各种历险。作者以小王子的孩子式的眼光，透视出成人的空虚、盲目，愚妄和死板教条，用浅显天真的语言写出了人类的孤独寂寞、没有根基随风流浪的命运。同时，也表达出作者对金钱关系的批判，对真善美的讴歌。</string>
+    <string name="SHERLOKintro">《福尔摩斯探案全集》是英国作家阿瑟·柯南道尔创作的小说集，主角名为夏洛克·福尔摩斯（Sherlock Holmes，又译作歇洛克·福尔摩斯），共有4部长篇及56个短篇。第一部长篇《血字的研究》完成于1886年，隔年与其它作品合集出版于《比顿圣诞年刊》。被多次改编为电影与电视剧。</string>
+    <string name="SGYYinro">《三国演义》是中国古典四大名著之一，是中国第一部长篇章回体历史演义小说，全名为《三国志通俗演义》（又称《三国志演义》），作者是元末明初的著名小说家罗贯中。《三国志通俗演义》成书后有嘉靖壬午本等多个版本传于世，到了明末清初，毛宗岗对《三国演义》整顿回目、修正文辞、改换诗文。</string>
+    <string name="search_history">历史搜索</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="zhailu">父亲是一个胖子，走过去自然要费事些。我本来要去的，他不肯，只好让他去。我看见他戴着黑布小帽，穿着黑布大马褂，深青布棉袍，蹒跚的走到铁道边，慢慢探身下去，尚不大难。</string>
+    <string name="ganxiang">父母的爱是神圣的，伟大的！我们每个人都要爱自己的爸爸妈妈，但我们还有一个共同的妈妈——她就是我们的祖国。我们在她的怀抱中幸福的生活、快乐的学习！我现在的任务就是好好学习，掌握知识，练就一身本领，长大后，回报父母，报效祖国！</string>
+    <string name="hahah">123</string>
+
+    <string name="beiying">我们过了江，进了车站。我买票，他忙着照看行李。行李太多了，得向脚夫行些小费，才可过去。他便又忙着和他们讲价钱。我那时真是聪明过分，总觉他说话不大漂亮，非自己插嘴不可。但他终于讲定了价钱；就送我上车。他给我拣定了靠车门的一张椅子；我将他给我做的紫毛大衣铺好坐位。他嘱我路上小心，夜里警醒些，不要受凉。又嘱托茶房好好照应我。我心里暗笑他的迂；他们只认得钱，托他们直是白托！而且我这样大年纪的人，难道还不能料理自己么？唉，我现在想想，那时真是太聪明了！</string>
+    <string name="comment">这篇散文记述朱自清的祖母过世了，父亲也失去了工作。当丧事完毕后父亲要谋事了，朱自清也要回去念书了，他们便同行。当朱自清要去车站时，本来父亲准备让茶房陪他去，但父亲临时又改变主意，亲自送朱自清上火车。他父亲又准备买桔子给儿子路上吃，而买桔子要穿过铁轨，父亲人又胖，爬上爬下月台非常艰难，朱自清看着父亲的背影，被父亲的慈爱所感动，眼泪也禁不住流下来了。</string>
+</resources>

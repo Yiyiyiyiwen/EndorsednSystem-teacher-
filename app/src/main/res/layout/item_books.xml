@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:id="@+id/toall"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:text="小明"
+            android:textColor="#FF333333"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/all"
+            android:src="@mipmap/enter"/>
+             </LinearLayout>
+
+
+    <com.example.even1.endorsedsystemteacher.View.CustomizedView.HorizontalListView
+            android:id="@+id/horizontal_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp" >
+        </com.example.even1.endorsedsystemteacher.View.CustomizedView.HorizontalListView>
+
+</LinearLayout>

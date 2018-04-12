@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_stacks"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.mainfragment.Stacks">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:titleTextColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="书库"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            />
+    </android.support.v7.widget.Toolbar>
+<com.jude.rollviewpager.RollPagerView
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/rollpagerview"
+    app:rollviewpager_play_delay="3000"
+    ></com.jude.rollviewpager.RollPagerView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabIndicatorColor="@color/colorPrimary"
+            android:id="@+id/tablayout">
+        </android.support.design.widget.TabLayout>
+
+
+            <com.example.even1.endorsedsystemteacher.View.CustomizedView.NoScrollViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/viewpager"></com.example.even1.endorsedsystemteacher.View.CustomizedView.NoScrollViewPager>
+
+
+    </LinearLayout>
+
+</LinearLayout>

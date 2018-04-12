@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.even1.endorsedsystemteacher">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES\" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <application
+        android:name=".View.CustomizedView.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login.Login"></activity>
+        <activity android:name=".View.mainfragment.BookShelf" />
+        <activity android:name=".View.mainfragment.Stacks" />
+        <activity android:name=".View.mainfragment.MyClass" />
+        <activity android:name=".View.mainfragment.Search" />
+        <activity android:name=".View.mainfragment.MyHome" />
+        <activity android:name=".View.StackFragment.ReadingIN" />
+        <activity android:name=".View.StackFragment.ReadingOUT" />
+        <activity android:name=".View.StackFragment.RankingList" />
+        <activity android:name=".View.StackFragment.Book_List" />
+        <activity android:name=".View.StackFragment.Book_Detail" />
+        <activity android:name=".View.StackFragment.Rank_Detail" />
+        <activity android:name=".View.StackFragment.Good_Books" />
+        <activity android:name=".View.StackFragment.Good_Readers" />
+        <activity android:name=".View.MyClass.MyClass_detail" />
+        <activity android:name=".View.MyClass.Class_Member" />
+        <activity android:name=".View.MyClass.Class_Homework" />
+        <activity android:name=".View.MyClass.Class_Grade" />
+        <activity android:name=".View.MyClass.Class_Rank" />
+        <activity android:name=".View.MyHome.mMessage" />
+        <activity android:name=".View.MyHome.mInfor" />
+        <activity android:name=".View.MyHome.mSet" />
+        <activity android:name=".View.MyHome.mVIP" />
+        <activity android:name=".View.MyClass.Submit_Condition" />
+        <activity android:name=".View.MyClass.Comment" />
+        <activity android:name=".View.MyClass.Do_Homework" />
+        <activity
+            android:name=".View.mainfragment.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".View.MyHome.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".View.MyClass.Homework_detail" />
+        <activity android:name=".View.MyClass.MyGrade" />
+        <activity android:name=".View.Reading" />
+        <activity android:name=".View.MyClass.AddClass"></activity>
+        <activity android:name=".View.MyClass.Search_books"></activity>
+    </application>
+
+</manifest>
